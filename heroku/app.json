@@ -1,0 +1,20 @@
+{
+  "name": "Facebook Webhook Example",
+  "description": "An example app for Facebook Webhooks integration",
+  "repository": "https://github.com/fbsamples/graph-api-webhooks-sample",
+  "logo": "https://nodejs.org/static/images/logo.svg",
+  "keywords": ["facebook", "webhooks", "nodejs"],
+  "scripts": {
+    "postdeploy": "echo 'Application deployed successfully!'"
+  },
+  "env": {
+    "APP_SECRET": {
+      "description": "The app secret from Facebook Developer settings",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "The token for webhook verification",
+      "required": true
+    }
+  }
+}
